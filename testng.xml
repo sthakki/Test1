@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+	<test name="ChromeTest">
+	<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="scripts.SubscriptionOrder_TS_SO_001" />
+			<class name="scripts.Mindmap_TS_MM_001" />
+			<class name="scripts.FilmDetailsPage_TS_FDP_001" />
+		</classes>
+	</test> 
+	<test name="FirefoxTest">
+	<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="scripts.SubscriptionOrder_TS_SO_001" />
+			<class name="scripts.Mindmap_TS_MM_001" />
+			<class name="scripts.FilmDetailsPage_TS_FDP_001" />
+		</classes>
+	</test>
+	<test name="IETest">
+	<parameter name="browser" value="ie"/>
+		<classes>
+			<class name="scripts.SubscriptionOrder_TS_SO_001" />
+			<class name="scripts.Mindmap_TS_MM_001" />
+			<class name="scripts.FilmDetailsPage_TS_FDP_001" />
+		</classes>
+	</test>
+	<test name="EdgeTest">
+	<parameter name="browser" value="edge"/>
+		<classes>
+			<class name="scripts.SubscriptionOrder_TS_SO_001" />
+			<class name="scripts.Mindmap_TS_MM_001" />
+			<class name="scripts.FilmDetailsPage_TS_FDP_001" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
