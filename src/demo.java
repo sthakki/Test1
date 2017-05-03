@@ -7,5 +7,7 @@ public class demo
 		System.out.println("welcome!!!!!!!!.....");
         System.out.println( "Hello World!" );
         System.out.println( "Hello World!" );
+        System.out.println( "Hello World!" );
+        System.out.println( "Hello World!" );
 	}
 }
